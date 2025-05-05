@@ -71,15 +71,19 @@ Haven created the above, I proceed to build my dashborad in PowerPoint as shown 
 
 #### Here are some salients facts drawn from the analysis visualized -
 
-- Revenue Analysis : ....
-- Profit Analysis : ....
-- Location Analysis : .....
-- Product Category Analysis : ....
+- Profit Analysis : The first good thing to note is that the Store is making profit. Total Revenue made by all the Maven Toy Stores is $14.44M with a profit of $4.01
+- Data Period : The data provided spans through January 2022 to September 2023
+- Location Analysis : Of the four locations the Stores are distributed, the Stores in Downtown gross about $8.22M of the Total Revenue which is about 57% while the Stores in the Airport area grossed $1.29M (about 9%)
+- Product Category Analysis : Whilst of the 5 Product Categories, the Toys are highest grossing in the sum of $5.09 which is clearly over $2M above the next in line being Art & Crafts
+- Comparison Analysis - It is worthy of note to state that although the Toys category ranks higher than Art & Craft in revenue generation (with Lego Bricks bringing in $2.39 of its $5.09), both rank the same in terms of Total Orders being 221k respectively.
+- Order Analysis : Toys and Art & Crafts Category produce a total of 442k Orders of the general Total Orders of 829k, which is over 50%.
+- Revenue Analysis : Generally, from the first glance of our line chart showing the Revenue over Time it is clear 2023 was a better financial year for the Store as opposed to 2022 with the increase starting from November 2022.
 
-### Recommendations and Conclusion
+### Recommendations and Conclusion 
 
-- Firstly, ......
-- ....
+- We would have to dig a little deeper to know what action was taken, step introduced or probably product introduced that the revenue increment from November 2022 to ensure it is monitored closely for even more profit.
+- Maven Toys Store could open more Stores in the Downtown area with cost cut from the Stores in the Airport area.
+- Next purchase of Products to be sold at Maven Toys Stores should include more of Toys (especially Lego Bricks and Colorbuds) and Art & Craft.
 
 ### Some cool Tips for the road 😉😉😉
 
