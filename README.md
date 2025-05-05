@@ -1,5 +1,18 @@
 # Maven Toys Store Sales Analysis
 
+### Table of Content
+
+- [Introduction](#introduction)
+- [Project Overview](project_overview)
+- [Data Source](data_source)
+- [Software Used](software_used)
+- [Skills Demonstrated](skills_demonstrated)
+- [Data Transformation](data_transformation)
+- [Data Modelling](data_modelling)
+- [Data Analysis and Visualization](data_analysis_and_visualization)
+- [Recommendations and Conclusion](recommendations_and_conclusion)
+- [Tips](tips)
+
 ### Introduction
 
 This Data Analysis Project was birthed in course of my work with the Digitaley Drive Team. The dataset was provided by the Team and I have been saddled with the interesting task of cleaning, visualing and analysing it.
@@ -20,10 +33,18 @@ This analysis comprises of 4 Tables :
 
 The 'sales' table is the primary dataset used for this analysis in the "sales.csv" file, containing detailed information about all sales made by all Maven Toys Stores.
 
-### Software Used and Version
+### Software Used
 
 - Microsoft Power Bi - Version: 2.142.928.0 64-bit (April 2025)
 - Microsoft PowerPoint 2016 MSO (16.0.4266.1001) 64-bit
+
+### Skills Demonstrated
+
+- Data Cleaning
+- Measures
+- Filtering Data
+- Data Visualization
+- Annotation
 
 ### Data Transformation
 
@@ -39,12 +60,11 @@ The datasets were efficiently cleaned and transformed in the Power Query Editor 
 Now in the 'Model View' of Power Bi Desktop. Power Bi already automatically connected the "products.csv" and "stores.csv" representing the dimension tables to the "sales.csv" representing the fact table as related tables in a star schema model via the common columns `Product_ID` and `Store_ID` respectively. 
 
 I however had to connect the "calendar.csv" to the "sales.csv" as shown in the uploaded image "mts_model_view.png" via the `Date` column.
-
-![Maven Toys Data Modelling](mts_model_view.png)
+![](mts_model_view.png)
 
 ### Data Analysis and Visualization
 
-In order to obtain my KPI’s for the Maven Toys Sales Analysis, I created 5 measures via DAX Calculations as shown below -
+In order to obtain my Key Performing Indicators - KPI’s for the Maven Toys Sales Analysis, I created 5 measures via DAX Calculations as shown below -
 
 1. Underneath the stores table, I created a Stores measure with my DAX to find the Total No of Stores.
 ```
@@ -62,39 +82,46 @@ Total Orders = COUNTROWS(sales)
 Total Profit = SUM(sales[Profit])
 Total Revenue = SUM(sales[Revenue])
 ```
-
-Haven created the above, I proceed to build my dashborad in PowerPoint as shown in the image below. I imported into my PowerBi as the Canvas of my visuals and the built my charts, filters, heading and logo to birth the very relatable sales analysis dashboard also shown below.
-
+Haven created the above, I proceeded to build my dashboard in PowerPoint as shown in image "mts_powerpoint_dashboard.png". I thereafter imported the image into my PowerBi as the Canvas of my visuals and the built my charts, filters, heading and logo to birth the very relatable sales analysis dashboard also shown in the uploaded image "mts_analysis_dashboard.png".
 ![](mts_powerpoint_dashboard.png)
-
 ![](mts_analysis_dashboard.png)
 
 #### Here are some salients facts drawn from the analysis visualized -
 
-- Profit Analysis : The first good thing to note is that the Store is making profit. Total Revenue made by all the Maven Toy Stores is $14.44M with a profit of $4.01
+- Profit Analysis : The first thing to note is that the Store is making Profit. Total Revenue made by all the Maven Toys Stores is $14.44M with a profit of $4.01
+
 - Data Period : The data provided spans through January 2022 to September 2023
-- Location Analysis : Of the four locations the Stores are distributed, the Stores in Downtown gross about $8.22M of the Total Revenue which is about 57% while the Stores in the Airport area grossed $1.29M (about 9%)
-- Product Category Analysis : Whilst of the 5 Product Categories, the Toys are highest grossing in the sum of $5.09 which is clearly over $2M above the next in line being Art & Crafts
-- Comparison Analysis - It is worthy of note to state that although the Toys category ranks higher than Art & Craft in revenue generation (with Lego Bricks bringing in $2.39 of its $5.09), both rank the same in terms of Total Orders being 221k respectively.
-- Order Analysis : Toys and Art & Crafts Category produce a total of 442k Orders of the general Total Orders of 829k, which is over 50%.
-- Revenue Analysis : Generally, from the first glance of our line chart showing the Revenue over Time it is clear 2023 was a better financial year for the Store as opposed to 2022 with the increase starting from November 2022.
+
+- Location Analysis : Of the four locations the Stores are distributed, the Stores in 'Downtown' gross about $8.22M of the Total Revenue which is about 57% while the Stores in the 'Airport' area grossed $1.29M (about 9%)
+
+- Product Category Analysis : Whilst of the 5 Product Categories, the 'Toys' are highest grossing in the sum of $5.09M which is clearly over $2M above the next in line being 'Art & Crafts'
+
+- Comparison Analysis - It is worthy of note to state that although the 'Toys' category ranks higher than 'Art & Crafts' in revenue generation (with Lego Bricks bringing in $2.39M of its $5.09M), both rank the same in terms of Total Orders being 221k respectively
+
+- Order Analysis : 'Toys' and 'Art & Crafts' Category produce a total of 442k Orders of the general Total Orders of 829k, which is over 50%
+
+- Revenue Analysis : Generally, from the first glance of our line chart showing the Revenue over time it is clear 2023 was a better financial year for the Store as opposed to 2022 with the increase starting from November 2022.
 
 ### Recommendations and Conclusion 
 
 - We would have to dig a little deeper to know what action was taken, step introduced or probably product introduced that the revenue increment from November 2022 to ensure it is monitored closely for even more profit.
-- Maven Toys Store could open more Stores in the Downtown area with cost cut from the Stores in the Airport area.
-- Next purchase of Products to be sold at Maven Toys Stores should include more of Toys (especially Lego Bricks and Colorbuds) and Art & Craft.
 
-### Some cool Tips for the road 😉😉😉
+- Maven Toys Store could open more Stores in the 'Downtown' area with cost cut from the Stores in the 'Airport' area.
+
+- Next purchase of Products to be sold at Maven Toys Stores should include more of 'Toys' (especially Lego Bricks and Colorbuds) and 'Art & Crafts'.
+
+### Tips
+
+Some cool Tips for the road 😉😉😉
 
 #### PowerBi Tips : 
 
-- Click ‘Enter’ to enable a formular calculate.
-- Click ‘Shift’ + ‘Enter’ to move to the next line of your DAX Formular Bar.
+- Click `Enter` to enable a formular calculate.
+- Click `Shift + Enter` to move to the next line of your DAX Formular Bar.
 
 #### PowerPoint Tips : 
 
-To align a number of shapes in you design dashboard - 
+To align a number of shapes in your design dashboard - 
 
 - Select the shapes to be aligned;
 - In the Format Tab;
