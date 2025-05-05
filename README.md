@@ -29,9 +29,12 @@ The 'sales' table is the primary dataset used for this analysis in the "sales.cs
 
 The datasets were efficiently cleaned and transformed in the Power Query Editor of my Power Bi Desktop with the performed tasks outlined seriatim :
 
-1. Including 2 more columns in my "caledar.csv" being `Start of Month` and `Start of Week` from the 'Date' dropdown of the 'Add Column' tab. This is to enable me easily draw visual analysis during data visualization. See uploaded picture ".....".
+1. Including 2 more columns in my "caledar.csv" being `Start of Month` and `Start of Week` from the 'Date' dropdown of the 'Add Column' tab. This is to enable me easily draw visual analysis during data visualization. See uploaded picture "mts_power_query_editor.png".
 2. Changed the datatypes of all the columns with dates to reflect the right datatype, that is, from 'Number' to 'Date'.
+3. 'Close & Apply' to have my transformation inputted and return to the Power Bi Desktop.
 
 ### Data Modelling
 
+The 'Model View' of my Power Bi already connected my "products.csv" and "stores.csv" to my "sales.csv". I however had to connect "calendar.csv" to the "sales.csv" as shown in the uploaded image "mts_model_view.png". 
 
+![Maven Toys Data Modelling](mts_model_view.png)
