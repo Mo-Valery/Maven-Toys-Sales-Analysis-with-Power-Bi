@@ -42,16 +42,63 @@ I however had to connect the "calendar.csv" to the "sales.csv" as shown in the u
 
 ![Maven Toys Data Modelling](mts_model_view.png)
 
-### Data Analysis
+### Data Analysis and Visualization
 
+In order to obtain my KPI’s for the Maven Toys Sales Analysis, I created 5 measures via DAX Calculations as shown below -
 
+1. Underneath the stores table, I created a Stores measure with my DAX to find the Total No of Stores.
+```
+Stores = DISTINCTCOUNT(stores[Store_ID])
+```
 
-### Data Visualization
+2. Also I created a measure in my products table with a DAX formular to find the Total Number of Categories the items in Maven Toys Store are split into.
+```
+Total Category = DISTINCTCOUNT(products[Product_Category])
+```
+
+3. Finally, in the sales table, I created 3 measures for Total Orders, Total Profit and Total Revenue with these formulas respectively.
+```
+Total Orders = COUNTROWS(sales)
+Total Profit = SUM(sales[Profit])
+Total Revenue = SUM(sales[Revenue])
+```
+
+Haven created the above, I proceed to build my dashborad in PowerPoint as shown in the image below. I imported into my PowerBi as the Canvas of my visuals and the built my charts, filters, heading and logo to birth the very relatable sales analysis dashboard also shown below.
 
 ![](mts_powerpoint_dashboard.png)
 
 ![](mts_analysis_dashboard.png)
 
+#### Here are some salients facts drawn from the analysis visualized -
+
+- Revenue Analysis : ....
+- Profit Analysis : ....
+- Location Analysis : .....
+- Product Category Analysis : ....
+
 ### Recommendations and Conclusion
 
-![image](https://github.com/user-attachments/assets/4633963b-1bd8-400b-9524-f71fe44ef555)
+- Firstly, ......
+- ....
+
+### Some cool Tips for the road 😉😉😉
+
+#### PowerBi Tips : 
+
+- Click ‘Enter’ to enable a formular calculate.
+- Click ‘Shift’ + ‘Enter’ to move to the next line of your DAX Formular Bar.
+
+#### PowerPoint Tips : 
+
+To align a number of shapes in you design dashboard - 
+
+- Select the shapes to be aligned;
+- In the Format Tab;
+- Select Align; and
+- Choose the direction you want them to be aligned to.
+
+Viola !!! 💯
+
+Thanks for sticking around till the very end, I thoroughly hope you enjoyed it.
+
+![](https://www.shutterstock.com/image-photo/cookie-thank-you-260nw-376370176.jpg)
