@@ -53,6 +53,7 @@ The datasets were efficiently cleaned and transformed in the Power Query Editor 
 1. Including 2 more columns in my "caledar.csv" being `Start of Month` and `Start of Week` from the 'Date' dropdown of the 'Add Column' tab. This is to enable me easily draw visual analysis during data visualization. See uploaded picture "mts_power_query_editor.png".
    
 ![](C:\Users\Dell 3520\Pictures\Maven Toys Store\mts_power_query_editor.png)
+![Power Query Edit](https://github.com/user-attachments/assets/78adfbcc-e903-4de7-a972-39a57379912c)
 
 2. Changed the datatypes of all the columns with dates to reflect the right datatype, that is, from 'Number' to 'Date'.
 3. 'Close & Apply' to have my transformation inputted and return to the Power Bi Desktop.
