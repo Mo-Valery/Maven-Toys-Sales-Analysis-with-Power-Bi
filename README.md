@@ -51,7 +51,9 @@ The 'sales' table is the primary dataset used for this analysis in the "sales.cs
 The datasets were efficiently cleaned and transformed in the Power Query Editor of my Power Bi Desktop with the performed tasks outlined seriatim :
 
 1. Including 2 more columns in my "caledar.csv" being `Start of Month` and `Start of Week` from the 'Date' dropdown of the 'Add Column' tab. This is to enable me easily draw visual analysis during data visualization. See uploaded picture "mts_power_query_editor.png".
-![](mts_power_query_editor.png)
+   
+![](C:\Users\Dell 3520\Pictures\Maven Toys Store\mts_power_query_editor.png)
+
 2. Changed the datatypes of all the columns with dates to reflect the right datatype, that is, from 'Number' to 'Date'.
 3. 'Close & Apply' to have my transformation inputted and return to the Power Bi Desktop.
 
@@ -60,7 +62,8 @@ The datasets were efficiently cleaned and transformed in the Power Query Editor 
 Now in the 'Model View' of Power Bi Desktop. Power Bi already automatically connected the "products.csv" and "stores.csv" representing the dimension tables to the "sales.csv" representing the fact table as related tables in a star schema model via the common columns `Product_ID` and `Store_ID` respectively. 
 
 I however had to connect the "calendar.csv" to the "sales.csv" as shown in the uploaded image "mts_model_view.png" via the `Date` column.
-![](mts_model_view.png)
+
+![](C:\Users\Dell 3520\Pictures\Maven Toys Store\mts_model_view.png)
 
 ### Data Analysis and Visualization
 
@@ -83,8 +86,8 @@ Total Profit = SUM(sales[Profit])
 Total Revenue = SUM(sales[Revenue])
 ```
 Haven created the above, I proceeded to build my dashboard in PowerPoint as shown in image "mts_powerpoint_dashboard.png". I thereafter imported the image into my PowerBi as the Canvas of my visuals and the built my charts, filters, heading and logo to birth the very relatable sales analysis dashboard also shown in the uploaded image "mts_analysis_dashboard.png".
-![](mts_powerpoint_dashboard.png)
-![](mts_analysis_dashboard.png)
+![](C:\Users\Dell 3520\Pictures\Maven Toys Store\mts_powerpoint_dashboard.png)
+![](C:\Users\Dell 3520\Pictures\Maven Toys Store\mts_analysis_dashboard.png)
 
 #### Here are some salients facts drawn from the analysis visualized -
 
@@ -130,6 +133,6 @@ To align a number of shapes in your design dashboard -
 
 Viola !!! 💯
 
-Thanks for sticking around till the very end, I thoroughly hope you enjoyed it.
+Thank you for sticking around till the very end, I thoroughly hope you enjoyed it.
 
 ![](https://www.shutterstock.com/image-photo/cookie-thank-you-260nw-376370176.jpg)
